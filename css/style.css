@@ -15,3 +15,10 @@ h1 {
   font-size: xxx-large;
   font-family: monospace;
 }
+main {
+  background: #ffff00ab;
+}
+
+footer {
+ background: #ababcf;
+}

@@ -1,1 +1,17 @@
+ul {
+ display: flex;
+ justify-content: space-between;
+ background: #ababcf; 
+}
 
+header {
+  background: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bolder;
+  font-size: xxx-large;
+  font-family: monospace;
+}

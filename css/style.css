@@ -44,3 +44,10 @@ footer {
   padding: 10px;
 
 }
+
+.park_image{
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  list-style-type: none;
+}

@@ -1,9 +1,18 @@
+nav {
+  display:inline-block;
+  width:80%;
+}
 ul {
  display: flex;
- justify-content: space-between;
- background: #ababcf; 
+ justify-content: space-evenly;
 }
-
+.active_class{
+  color:#2196F3;
+}
+.main_image{
+  width:10%;
+  display:inline-block;
+}
 header {
   background: lightgray;
 }
@@ -22,4 +31,16 @@ main {
 
 footer {
  background: #ababcf;
+}
+.container_class {
+  flex-wrap: wrap;
+  display:flex;
+}
+
+.container_image_class{
+ flex: 0 0 50%;   /* each item takes 50% of the row */
+  box-sizing: border-box;
+  border: 1px solid #333;
+  padding: 10px;
+
 }

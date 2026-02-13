@@ -1,7 +1,11 @@
 nav {
   display:inline-block;
-  width:80%;
+  width:100%;
 }
+.main_image{
+  dispaly:block;
+}
+
 ul {
  display: flex;
  justify-content: space-evenly;
@@ -51,3 +55,19 @@ footer {
   width: 80%;
   list-style-type: none;
 }
+
+.skip_content_class{
+  position: absolute;
+    top: -40px; /* hide it above the viewport */
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 100;
+    transition: top 0.3s;
+}
+
+.skip_content_class:focus {
+    top: 40px; /* bring it into view when focused */
+  }

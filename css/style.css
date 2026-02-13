@@ -9,9 +9,18 @@ nav {
 ul {
  display: flex;
  justify-content: space-evenly;
+  margin:1vw;
 }
+
 .active_class{
-  color:#2196F3;
+  border:5px solid darkblue;
+  background:darkblue;
+  color:white;
+}
+.active_class:active{
+   border:5px solid lightgray;
+  background:lightgray;
+  color:darkblue;
 }
 .main_image{
   width:10%;
@@ -30,22 +39,28 @@ h1 {
   font-family: monospace;
 }
 main {
-  background: #ffff00ab;
+  background: red;
 }
 
 footer {
  background: #ababcf;
 }
 .container_class {
+  border : 10px solid pink;
   flex-wrap: wrap;
   display:flex;
 }
 
+.container_image_class:hover {
+  border: 10px solid white;
+  cursor: pointer;
+}
 .container_image_class{
  flex: 0 0 50%;   /* each item takes 50% of the row */
   box-sizing: border-box;
-  border: 1px solid #333;
+  border: 10px solid pink;
   padding: 10px;
+  
 
 }
 
